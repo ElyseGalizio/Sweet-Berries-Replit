@@ -1,0 +1,51 @@
+:root {
+    --eggshell-background-color: #F5F3EF;
+    --white-card-color: #FFFFFF;
+    --yellow-accent-color: #FEBD2F;
+    --black-text-primary: #000000;
+    --gray-text-secondary: #646464;
+    --gray-outline: #DCDCDC;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--eggshell-background-color);
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--black-text-primary);
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: var(--black-text-primary);
+    width: 600px;
+  }
+  
+  h2 {
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-family: 'Roboto Serif', serif;
+    color: var(--black-text-primary);
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
